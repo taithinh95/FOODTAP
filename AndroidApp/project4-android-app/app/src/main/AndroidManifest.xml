@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="fpt.aptech.project4_android_app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name=".Notification"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:targetSandboxVersion="1"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="${cleartextTrafficPermitted}">
+        <activity android:name=".features.Statistics.RatingActivity"></activity>
+        <activity android:name=".features.Statistics.StatisticDetailOrdersActivity" />
+        <activity android:name=".features.Statistics.FailedOrderActivity" />
+        <activity android:name=".features.Statistics.CompletedOrderActivity" />
+        <activity android:name=".features.Map.MapActivity" />
+        <activity android:name=".features.Order.DetailsOrderActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".features.Logon.RegisterActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".NewShipperActivity" />
+        <activity
+            android:name=".features.Logon.LoginActivity"
+            android:windowSoftInputMode="adjustResize" />
+    </application>
+
+</manifest>

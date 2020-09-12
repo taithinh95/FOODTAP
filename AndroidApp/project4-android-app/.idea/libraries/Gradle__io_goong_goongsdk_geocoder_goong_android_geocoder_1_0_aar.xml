@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: io.goong.goongsdk.geocoder:goong-android-geocoder:1.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dcb1fa9432e151c7464c36f27e21aa7a/jetified-goong-android-geocoder-1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dcb1fa9432e151c7464c36f27e21aa7a/jetified-goong-android-geocoder-1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dcb1fa9432e151c7464c36f27e21aa7a/jetified-goong-android-geocoder-1.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.goong.goongsdk.geocoder/goong-android-geocoder/1.0/8772faca6a82c9457943a5392619c4fb52ec34ff/goong-android-geocoder-1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.goong.goongsdk.geocoder/goong-android-geocoder/1.0/ed9311597c7878858b115255f9ebbcb44e3a8d0b/goong-android-geocoder-1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
